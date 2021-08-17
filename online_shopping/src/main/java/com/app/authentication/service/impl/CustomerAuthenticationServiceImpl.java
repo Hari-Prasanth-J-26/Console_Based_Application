@@ -1,5 +1,8 @@
 package com.app.authentication.service.impl;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.app.authentication.dao.CustomerAuthenticationDAO;
 import com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl;
 import com.app.authentication.service.CustomerAuthenticationService;
@@ -8,18 +11,32 @@ import com.app.model.Customer;
 
 public class CustomerAuthenticationServiceImpl implements CustomerAuthenticationService{
 	
-	private CustomerAuthenticationDAO customerAuthenticationDAO = new CustomerAuthenticationDAOImpl();
-	private Customer customer = new Customer();
+	CustomerAuthenticationDAO customerAuthenticationDAO = new CustomerAuthenticationDAOImpl();
 
 	@Override
-	public String signIn(int id) throws BusinessException{
-		String actualValue = null;
-		if(id <= 1 || id > 1000) {
-			throw new BusinessException("Invalid Customer id "+id);
+	public String signIn(String email, String password) throws BusinessException {
+		String actualValue = "";
+		List<Customer> customerList = new ArrayList<>();
+		customerList = customerAuthenticationDAO.signIn(email, password); 
+		//System.out.println(customerList);
+//		if(email.equals(customerList.get(0).getEmail()) && password.equals(customerList.get(0).getPassword()) && customerList != null) {
+//			//actualValue = customerAuthenticationDAO.signIn(email, password);
+//			actualValue = "SignIn Successfull";
+//		}
+//		else {
+//			//throw new BusinessException("Invalid Customer credentials... Kindly retry");
+//			actualValue = "SignIn Unsuccessfull";
+//		}
+		
+		Customer c1 = customerList.get(0);
+		System.out.println(c1);
+		if(customerList.isEmpty()) {
+			actualValue = "SignIn Unsuccessfull";
 		}
 		else {
-			actualValue = customerAuthenticationDAO.signIn(id);
+			actualValue = "SignIn Successfull";
 		}
+		
 		
 		return actualValue;
 	}
@@ -27,34 +44,15 @@ public class CustomerAuthenticationServiceImpl implements CustomerAuthentication
 	@Override
 	public String signUp(Customer customer) throws BusinessException {
 		String actualValue = null;
-		int c = customerAuthenticationDAO.signUp(customer);
-		if(c != 0 && customer.getFirstName()!=null) {
+		Customer c = customerAuthenticationDAO.signUp(customer);
+		if(c != null) {
 			actualValue = "SignUp Successfull";
 		}
 		else {
 			throw new BusinessException("Your Registration is Incomplete...");
 			
 		}
-		
-//		if(customer.getFirstName()!=null) {
-//			actualValue = "SignUp Successfull";
-//		}
 		return actualValue;
-	}
-
-	@Override
-	public String signIn(String username, String password) throws BusinessException {
-		String actualValue = null;
-		if(username == customer.getEmail() && password == customer.getPassword()) {
-			actualValue = customerAuthenticationDAO.signIn(username, password);
-			
-		}
-		else {
-			throw new BusinessException("Invalid Customer credentials... Kindly Register first.. ");
-		}
-		
-		return actualValue;
-
 	}
 
 }
