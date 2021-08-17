@@ -1,0 +1,473 @@
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:02:20 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:02:25 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:02:25 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:02:25 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:02:25 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:02:25 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:02:25 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:02:30 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:02:30 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:02:30 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:02:30 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:02:30 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:02:30 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:02:32 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:02:32 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:02:32 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:02:32 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:02:32 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:02:32 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:03:13 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:03:19 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:03:19 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:03:19 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:03:19 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:03:19 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:03:19 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:03:24 ERROR com.app.Main  - java.lang.NumberFormatException: For input string: "dfj"
+[main] 2021-08-229 08:03:24 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:03:24 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:03:24 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:03:24 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:03:24 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:03:24 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:03:52 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:03:55 ERROR com.app.Main  - For input string: "irewori"
+[main] 2021-08-229 08:03:55 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:03:55 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:03:55 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:03:55 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:03:55 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:03:55 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:05:03 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:05:06 WARN  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:05:06 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:05:06 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:05:06 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:05:06 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:05:06 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:05:12 WARN  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 08:05:12 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:05:12 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:05:12 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:05:12 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:05:12 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:05:16 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:05:16 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:05:16 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:05:16 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:05:16 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:05:56 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 08:05:58 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 08:05:58 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 08:05:58 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 08:05:58 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 08:05:58 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 09:22:51 WARN  com.app.test.CustomerTest  - com.app.exception.BusinessException: Invalid Customer id 10
+[main] 2021-08-229 09:25:57 WARN  com.app.test.CustomerTest  - com.app.exception.BusinessException: Entered Customer ID 106 doesn't exist
+[main] 2021-08-229 09:27:23 WARN  com.app.test.CustomerTest  - com.app.exception.BusinessException: SignIn Unsuccessfull, Kindly Register first....
+[main] 2021-08-229 09:43:07 WARN  com.app.test.CustomerTest  - com.app.exception.BusinessException: SignIn Unsuccessfull, Kindly Register first....
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:28:08 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:28:11 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:43:16 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:43:19 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 10:43:33 WARN  com.app.Main  - SignIn Unsuccessfull, Kindly Register first....
+[main] 2021-08-229 10:43:33 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:43:33 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:43:33 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:43:33 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:43:33 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:43:33 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:44:18 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:44:22 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - SignIn Successfull
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:44:26 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:46:37 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:46:45 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 10:46:47 WARN  com.app.Main  - Invalid Customer id 156
+[main] 2021-08-229 10:46:47 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:46:47 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:46:47 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:46:47 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:46:47 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:46:47 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 10:46:55 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 10:47:01 WARN  com.app.Main  - SignIn Unsuccessfull, Kindly Register first....
+[main] 2021-08-229 10:47:01 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 10:47:01 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 10:47:01 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 10:47:01 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 10:47:01 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 10:47:01 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:53:10 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:53:18 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 11:53:39 WARN  com.app.Main  - SignIn Unsuccessfull, Kindly Register first....
+[main] 2021-08-229 11:53:39 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:53:39 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:53:39 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:53:39 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:53:39 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:53:39 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:54:07 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 11:54:07 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 11:54:11 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 11:54:19 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 11:54:23 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 11:54:23 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 11:54:52 INFO  com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - 1 row created successfully
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - Customer [id=104, firstName=Dhamo, lastName=Dharan, email=, password=dhamodharan123@gmail.com]
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - SignUp Successfull
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:54:52 ERROR com.app.Main  - java.lang.NumberFormatException: For input string: ""
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 11:54:52 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:57:15 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:57:20 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - SignIn Successfull
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:57:24 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:57:33 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 11:57:33 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 11:57:36 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 11:57:44 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 11:57:44 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:58:26 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:58:34 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 11:58:37 WARN  com.app.Main  - SignIn Unsuccessfull, Kindly Register first....
+[main] 2021-08-229 11:58:37 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:58:37 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:58:37 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:58:37 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:58:37 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:58:37 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:58:43 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 11:58:43 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 11:58:45 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 11:59:11 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 11:59:17 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 11:59:27 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 11:59:34 INFO  com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - 1 row created successfully
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - Customer [id=105, firstName=Sabari, lastName=Nathan, email=sabarinathan123@gmail.com, password=sabari@123]
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - SignUp Successfull
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 11:59:34 ERROR com.app.Main  - java.lang.NumberFormatException: For input string: ""
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 11:59:34 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 12:30:08 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 12:30:33 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 12:30:33 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 12:30:37 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 12:30:51 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 12:30:55 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 12:31:08 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 12:31:28 INFO  com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - 1 row created successfully
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - Customer [id=106, firstName=Keerthi, lastName=Venkatesh, email=keerthivenkatesh123@gmail.com, password=keerthi@123]
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - SignUp Successfull
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 12:31:28 ERROR com.app.Main  - java.lang.NumberFormatException: For input string: ""
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 12:31:28 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 12:35:11 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 12:35:21 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 12:35:23 INFO  com.app.Main  - Register by using Id, First name, Last name, Email and Password
+[main] 2021-08-229 12:35:23 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 12:35:27 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 12:35:30 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 12:35:34 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 12:35:43 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 12:35:51 INFO  com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - 1 row created successfully
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - Customer [id=107, firstName=Ajith, lastName=Kumar, email=ajithkumar123@gmail.com, password=ajith@123]
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - SignUp Successfull
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 12:35:51 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 12:36:00 INFO  com.app.Main  - Enter Customer id
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - SignIn Successfull
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 12:36:03 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 12:37:27 ERROR com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Column 'firstName' cannot be null
+[main] 2021-08-229 12:38:33 ERROR com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Column 'firstName' cannot be null
+[main] 2021-08-229 12:41:52 ERROR com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Column 'firstName' cannot be null
+[main] 2021-08-229 12:42:56 ERROR com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Column 'firstName' cannot be null
+[main] 2021-08-229 12:45:45 ERROR com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Column 'firstName' cannot be null
+[main] 2021-08-229 12:46:59 ERROR com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Column 'firstName' cannot be null
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:06:44 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:06:47 INFO  com.app.Main  - Register by using First name, Last name, Email and Password
+[main] 2021-08-229 13:06:47 INFO  com.app.Main  - Your Customer Id : 
+[main] 2021-08-229 13:06:47 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:32:17 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:32:22 INFO  com.app.Main  - Register by using First name, Last name, Email and Password
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - SignUp Unsuccessfull... Please Register again.........
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:32:23 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:33:43 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:33:46 INFO  com.app.Main  - Register by using First name, Last name, Email and Password
+[main] 2021-08-229 13:33:48 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 13:34:03 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 13:34:09 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 13:34:26 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - Customer [id=0, firstName=Sudharsan, lastName=Maarimuthu, email=sudharsanmaarimuthu123@gmail.com, password=sudharsan@123]
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - SignUp Successfull
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:34:33 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:37:15 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:37:17 INFO  com.app.Main  - Register by using First name, Last name, Email and Password
+[main] 2021-08-229 13:37:19 INFO  com.app.Main  - 0
+[main] 2021-08-229 13:37:19 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:43:37 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 13:44:17 INFO  com.app.Main  - Register by using First name, Last name, Email and Password
+[main] 2021-08-229 13:44:17 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 13:44:34 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 13:44:37 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 13:44:48 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 13:45:03 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 13:45:03 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 13:45:03 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 13:45:03 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 13:45:03 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 13:45:03 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-229 14:02:05 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-229 14:02:07 INFO  com.app.Main  - Register by using First name, Last name, Email and Password
+[main] 2021-08-229 14:02:07 INFO  com.app.Main  - Enter Customer Id
+[main] 2021-08-229 14:02:11 INFO  com.app.Main  - Enter Customer First Name
+[main] 2021-08-229 14:02:21 INFO  com.app.Main  - Enter Customer Last Name
+[main] 2021-08-229 14:02:25 INFO  com.app.Main  - Enter Customer email
+[main] 2021-08-229 14:02:35 INFO  com.app.Main  - Enter Customer password
+[main] 2021-08-229 14:02:44 INFO  com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl  - 1 row created successfully
