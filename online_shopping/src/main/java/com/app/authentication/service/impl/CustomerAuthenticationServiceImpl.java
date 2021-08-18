@@ -28,8 +28,8 @@ public class CustomerAuthenticationServiceImpl implements CustomerAuthentication
 //			actualValue = "SignIn Unsuccessfull";
 //		}
 		
-		Customer c1 = customerList.get(0);
-		System.out.println(c1);
+//		Customer c1 = customerList.get(0);
+//		System.out.println(c1);
 		if(customerList.isEmpty()) {
 			actualValue = "SignIn Unsuccessfull";
 		}
