@@ -48,7 +48,8 @@ public class StatusDAOImpl implements StatusDAO{
 			preparedStatement.setString(1, orderShipped);
 			preparedStatement.setInt(2, cId);
 			c = preparedStatement.executeUpdate();
-			if(c == 1) {
+			log.info(c+"rows updated");
+			if(c >= 1) {
 				log.info("Products Shipped");
 			}
 			else {
@@ -69,7 +70,8 @@ public class StatusDAOImpl implements StatusDAO{
 			preparedStatement.setString(1, orderReceived);
 			preparedStatement.setInt(2, cId);
 			c = preparedStatement.executeUpdate();
-			if(c == 1) {
+			log.info(c+"rows updated");
+			if(c >= 1) {
 				log.info("Products Received");
 			}
 			else {

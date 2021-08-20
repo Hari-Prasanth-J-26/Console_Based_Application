@@ -11,16 +11,10 @@ import com.app.service.ProductAddService;
 import com.app.service.impl.ProductAddServiceImpl;
 
 class ProductTest {
-	
-	public static ProductAddService productAddService;
-	public static Product product;
-	
-	@BeforeAll
-	static void setUp() {
-		productAddService = new ProductAddServiceImpl(); 
-		product = new Product();
-	}
 
+	public ProductAddService productAddService = new ProductAddServiceImpl();
+	public Product product = new Product();
+	
 	@Test
 	void testAddProduct() throws BusinessException {
 		String expectedValue = "Product added successfully";

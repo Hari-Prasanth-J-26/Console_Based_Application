@@ -44,7 +44,7 @@ public class Main {
 	public static String cName;
 	public static String orderStatus;
 	public static String viewList;
-	// public static List<Order> orderedList;
+	public static Customer customerDetails;
 
 	public static void main(String[] args) throws BusinessException {
 
@@ -368,36 +368,51 @@ public class Main {
 								break;
 							case 4:
 								log.info("Viewing shipping status");
-								String shippingCheck = statusService.updateShippingStatus(cId, "true");
-								if (shippingCheck == "Shipping Successfull") {
-									log.info("Product Shipped successfully...");
-								}
-								int op2 = 0;
-								do {
-									log.info("Updating status Received");
-									log.info("1)Update Received status");
-									log.info("2)Go back");
-									try {
-										op2 = Integer.parseInt(sc.nextLine());
-									} catch (NumberFormatException e) {
-										log.error(e);
+								log.info("If you placed the order then type true");
+								log.info("Otherwise type false");
+								String orderStatus = sc.nextLine();
+								List<Cart> cartList = cartAddDAO.getAllItemsInCart(cId);
+								String orderCheck = orderService.placeOrder(cartList, orderStatus);
+
+								if (orderCheck == "Order Placed") {
+
+									String shippingCheck = statusService.updateShippingStatus(cId, "true");
+									if (shippingCheck == "Shipping Successfull") {
+										log.info("Product Shipped successfully...");
 									}
-									switch (op2) {
-									case 1:
-										log.info("Updating Received status");
-										String ReceivedCheck = statusService.updateDeliveryStatus(cId, "true");
-										if (ReceivedCheck == "Received Successfull") {
-											log.info("Updated Received successfully...");
+									int op2 = 0;
+									do {
+										log.info("Updating status Received");
+										log.info("1)Update Received status");
+										log.info("2)Go back");
+										try {
+											op2 = Integer.parseInt(sc.nextLine());
+										} catch (NumberFormatException e) {
+											log.error(e);
 										}
-										break;
-									case 2:
-										log.info("Going back..");
-										break;
-									default:
-										log.warn("Invalid Option.... Choice should be numbers and 1-2 only.. kindly retry");
-										break;
-									}
-								} while (op2 != 2);
+										switch (op2) {
+										case 1:
+											log.info("Updating Received status");
+											String ReceivedCheck = statusService.updateDeliveryStatus(cId, "true");
+
+											if (ReceivedCheck == "Received Successfull") {
+												log.info("Updated Received successfully...");
+											}
+											break;
+										case 2:
+											log.info("Going back..");
+											break;
+										default:
+											log.warn(
+													"Invalid Option.... Choice should be numbers and 1-2 only.. kindly retry");
+											break;
+										}
+
+									} while (op2 != 2);
+									
+								} else {
+									log.info("First place the order");
+								}
 								break;
 							case 5:
 								log.info("Thanks for using this APP... See you soon..");
@@ -583,7 +598,7 @@ public class Main {
 				customer.setPassword(sc.nextLine());
 				String password = customer.getPassword();
 
-				Customer customerDetails = new Customer(firstName, lastName, email, password);
+				customerDetails = new Customer(firstName, lastName, email, password);
 				try {
 					customerDetails = customerAuthenticationDAO.signUp(customerDetails);
 					if (customerDetails.getCustomerId() != 0) {
