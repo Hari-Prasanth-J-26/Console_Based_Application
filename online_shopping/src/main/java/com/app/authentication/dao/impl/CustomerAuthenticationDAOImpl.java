@@ -46,28 +46,25 @@ public class CustomerAuthenticationDAOImpl implements CustomerAuthenticationDAO 
 		List<Customer> customerList = new ArrayList<>();
 		Customer customer = null;
 		try (Connection connection = MySqlDbConnection.getConnection()) {
-			String sql = "select email, password from customer where email = ? and password = ?";
+			String sql = "select customerId, firstName, lastName, email, password from customer where email = ? and password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, email);
 			preparedStatement.setString(2, password);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			while(resultSet.next()) {
 				customer = new Customer();
+				customer.setCustomerId(resultSet.getInt("customerId"));
+				customer.setFirstName(resultSet.getString("firstName"));
+				customer.setLastName(resultSet.getString("lastName"));
 				customer.setEmail(resultSet.getString("email"));
 				customer.setPassword(resultSet.getString("password"));
 				customerList.add(customer);
-				
-				//actualValue = "SignIn Successfull";
 			}
-		 
-//				else {
-//				throw new BusinessException("SignIn Unsuccessfull, Kindly Register first....");
-//			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);
 			throw new BusinessException("Internal error occured, Please contact admin");
 		}
-		//System.out.println(customerList);
+		
 		return customerList;
 	}
 
@@ -85,7 +82,7 @@ public class CustomerAuthenticationDAOImpl implements CustomerAuthenticationDAO 
 			if (c == 1) {
 				ResultSet resultSet = preparedStatement.getGeneratedKeys();
 				if(resultSet.next()) {
-					customer.setId(resultSet.getInt(1));
+					customer.setCustomerId(resultSet.getInt(1));
 					//log.info(c + " row created successfully");
 				}
 				

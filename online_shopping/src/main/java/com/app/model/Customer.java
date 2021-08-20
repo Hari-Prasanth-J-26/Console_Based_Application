@@ -2,17 +2,17 @@ package com.app.model;
 
 public class Customer {
 	
-	private int id;
+	private int customerId;
 	private String firstName;
 	private String lastName;
 	private String email;
 	private String password;
 	
-	public int getId() {
-		return id;
+	public int getCustomerId() {
+		return customerId;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 	public String getFirstName() {
 		return firstName;
@@ -39,9 +39,9 @@ public class Customer {
 		this.password = password;
 	}
 	
-	public Customer(int id, String firstName, String lastName, String email, String password) {
+	public Customer(int customerId, String firstName, String lastName, String email, String password) {
 		super();
-		this.id = id;
+		this.customerId = customerId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
@@ -63,7 +63,7 @@ public class Customer {
 	
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+		return "Customer [customerId=" + customerId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
 				+ ", password=" + password + "]";
 	}
 	

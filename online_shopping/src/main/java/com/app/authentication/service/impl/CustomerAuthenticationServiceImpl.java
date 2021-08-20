@@ -11,6 +11,8 @@ import com.app.model.Customer;
 
 public class CustomerAuthenticationServiceImpl implements CustomerAuthenticationService{
 	
+	
+	
 	CustomerAuthenticationDAO customerAuthenticationDAO = new CustomerAuthenticationDAOImpl();
 
 	@Override
@@ -18,6 +20,7 @@ public class CustomerAuthenticationServiceImpl implements CustomerAuthentication
 		String actualValue = "";
 		List<Customer> customerList = new ArrayList<>();
 		customerList = customerAuthenticationDAO.signIn(email, password); 
+		
 		//System.out.println(customerList);
 //		if(email.equals(customerList.get(0).getEmail()) && password.equals(customerList.get(0).getPassword()) && customerList != null) {
 //			//actualValue = customerAuthenticationDAO.signIn(email, password);
@@ -28,10 +31,9 @@ public class CustomerAuthenticationServiceImpl implements CustomerAuthentication
 //			actualValue = "SignIn Unsuccessfull";
 //		}
 		
-//		Customer c1 = customerList.get(0);
-//		System.out.println(c1);
 		if(customerList.isEmpty()) {
-			actualValue = "SignIn Unsuccessfull";
+			throw new BusinessException("You are not an existing cutomer.. kindly register first..");
+
 		}
 		else {
 			actualValue = "SignIn Successfull";
@@ -44,13 +46,14 @@ public class CustomerAuthenticationServiceImpl implements CustomerAuthentication
 	@Override
 	public String signUp(Customer customer) throws BusinessException {
 		String actualValue = null;
-		Customer c = customerAuthenticationDAO.signUp(customer);
-		if(c != null) {
+		
+		Customer customerCheck = customerAuthenticationDAO.signUp(customer);
+		if(customerCheck != null) {
 			actualValue = "SignUp Successfull";
 		}
 		else {
 			throw new BusinessException("Your Registration is Incomplete...");
-			
+		
 		}
 		return actualValue;
 	}
