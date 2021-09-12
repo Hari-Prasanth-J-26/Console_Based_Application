@@ -12,7 +12,7 @@ import com.app.service.OrderService;
 
 public class OrderServiceImpl implements OrderService{
 	
-	OrderDAO orderDAO = new OrderDAOImpl();
+	private OrderDAO orderDAO = new OrderDAOImpl();
 
 	@Override
 	public String placeOrder(List<Cart> cartList, String orderStatus) throws BusinessException {

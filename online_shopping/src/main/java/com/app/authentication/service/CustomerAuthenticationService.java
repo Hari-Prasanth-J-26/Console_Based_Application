@@ -5,7 +5,6 @@ import com.app.model.Customer;
 
 public interface CustomerAuthenticationService {
 	
-	//public String signIn(int id) throws BusinessException;
 	public String signIn(String email, String password) throws BusinessException;
 	public String signUp(Customer customer) throws BusinessException;
 

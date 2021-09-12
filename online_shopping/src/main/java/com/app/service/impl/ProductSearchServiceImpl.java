@@ -11,7 +11,7 @@ import com.app.service.ProductSearchService;
 
 public class ProductSearchServiceImpl implements ProductSearchService {
 	
-	public ProductSearchDAO productSearchDAO = new ProductSearchDAOImpl();
+	private ProductSearchDAO productSearchDAO = new ProductSearchDAOImpl();
 
 	@Override
 	public Product getProductById(int productId) throws BusinessException {
@@ -21,7 +21,6 @@ public class ProductSearchServiceImpl implements ProductSearchService {
 		}
 		else {
 			product = productSearchDAO.getProductById(productId);
-			
 		}
 		return product;
 	}
@@ -35,7 +34,6 @@ public class ProductSearchServiceImpl implements ProductSearchService {
 		else {
 			throw new BusinessException("Invalid Product Name "+productName);
 		}
-		
 		return productList;
 	}
 
@@ -48,7 +46,6 @@ public class ProductSearchServiceImpl implements ProductSearchService {
 		else {
 			productList = productSearchDAO.getProductsByPrice(price);
 		}
-		
 		return productList;
 	}
 
@@ -61,7 +58,6 @@ public class ProductSearchServiceImpl implements ProductSearchService {
 		else {
 			productList = productSearchDAO.getProductsByRatings(ratings);
 		}
-		
 		return productList;
 	}
 

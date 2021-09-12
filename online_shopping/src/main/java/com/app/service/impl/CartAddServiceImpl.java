@@ -11,7 +11,7 @@ import com.app.service.CartAddService;
 
 public class CartAddServiceImpl implements CartAddService{
 	
-	CartAddDAO cartAddDAO = new CartAddDAOImpl();
+	private CartAddDAO cartAddDAO = new CartAddDAOImpl();
 
 	@Override
 	public String addToCart(int cId, int pId, int quantity) throws BusinessException {
@@ -21,7 +21,6 @@ public class CartAddServiceImpl implements CartAddService{
 			throw new BusinessException("There is some error in adding the Products in the cart.. Please retry..");
 		}
 		else {
-			
 			actualValue = "Product added in cart";
 		}
 		return actualValue;

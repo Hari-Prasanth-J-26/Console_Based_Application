@@ -12,7 +12,7 @@ import com.app.service.ProductAddService;
 
 public class ProductAddServiceImpl implements ProductAddService{
 	
-	ProductAddDAO productAddDAO = new ProductAddDAOImpl();
+	private ProductAddDAO productAddDAO = new ProductAddDAOImpl();
 
 	@Override
 	public String addProduct(Product product) throws BusinessException {

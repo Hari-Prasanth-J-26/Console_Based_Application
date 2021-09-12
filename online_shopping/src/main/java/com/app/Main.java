@@ -11,10 +11,12 @@ import com.app.authentication.dao.impl.CustomerAuthenticationDAOImpl;
 import com.app.authentication.service.CustomerAuthenticationService;
 import com.app.authentication.service.impl.CustomerAuthenticationServiceImpl;
 import com.app.dao.CartAddDAO;
+import com.app.dao.CustomerDAO;
 import com.app.dao.OrderDAO;
 import com.app.dao.ProductAddDAO;
 import com.app.dao.StatusDAO;
 import com.app.dao.impl.CartAddDAOImpl;
+import com.app.dao.impl.CustomerDAOImpl;
 import com.app.dao.impl.OrderDAOImpl;
 import com.app.dao.impl.ProductAddDAOImpl;
 import com.app.dao.impl.StatusDAOImpl;
@@ -26,10 +28,12 @@ import com.app.model.Order;
 import com.app.model.Product;
 import com.app.model.Status;
 import com.app.service.CartAddService;
+import com.app.service.CustomerService;
 import com.app.service.OrderService;
 import com.app.service.ProductSearchService;
 import com.app.service.StatusService;
 import com.app.service.impl.CartAddServiceImpl;
+import com.app.service.impl.CustomerServiceImpl;
 import com.app.service.impl.OrderServiceImpl;
 import com.app.service.impl.ProductSearchServiceImpl;
 import com.app.service.impl.StatusServiceImpl;
@@ -58,6 +62,8 @@ public class Main {
 		OrderDAO orderDAO = new OrderDAOImpl();
 		StatusDAO statusDAO = new StatusDAOImpl();
 		StatusService statusService = new StatusServiceImpl();
+		CustomerService customerService = new CustomerServiceImpl();
+		CustomerDAO customerDAO = new CustomerDAOImpl();
 
 		Scanner sc = new Scanner(System.in);
 		log.info("Welcome to Hari's Online Shopping APP");
@@ -443,13 +449,14 @@ public class Main {
 					log.info("Employee LogIn Successfull...");
 					int click = 0;
 					do {
-						log.info("\nHello HariPrasanth, Select what you want to do?");
+						log.info("\nHello "+employeeUsername+", Select what you want to do?");
 						log.info("1)Add a new Product");
 						log.info("2)View Product List");
-						log.info("3)View Ordered List");
-						log.info("4)Shipping status");
-						log.info("5)Logout");
-						log.info("Please select any one of the option 1-5 only");
+						log.info("3)View Customer List");
+						log.info("4)View Ordered List");
+						log.info("5)Shipping status");
+						log.info("6)Logout");
+						log.info("Please select any one of the option 1-6 only");
 
 						try {
 							click = Integer.parseInt(sc.nextLine());
@@ -499,6 +506,21 @@ public class Main {
 
 							break;
 						case 3:
+							log.info("All Customer Details");
+							try {
+								String output = customerService.getAllCustomers();
+									if(output == "successfull") {
+										List<Customer> customersList = customerDAO.getAllCustomers();
+										for (Customer customer : customersList) {
+											log.info(customer);
+										}
+										log.info("Customer details shown.......");
+									}
+							} catch (BusinessException e) {
+								log.error(e);
+							}
+							break;
+						case 4:
 							log.info("You are viewing ordered list");
 							List<Order> orderedList = new ArrayList<>();
 							orderedList = orderDAO.getOrderList(cId);
@@ -549,7 +571,7 @@ public class Main {
 							} while (ch != 3);
 
 							break;
-						case 4:
+						case 5:
 							log.info("Packing the products and ready to dispatch");
 							log.info("Updating status...");
 							List<Order> updatedList = new ArrayList<>();
@@ -567,14 +589,14 @@ public class Main {
 							}
 
 							break;
-						case 5:
+						case 6:
 							log.info("Session Logout");
 							break;
 						default:
-							log.warn("Invalid Option.... Choice should be numbers and 1-5 only.. kindly retry");
+							log.warn("Invalid Option.... Choice should be numbers and 1-6 only.. kindly retry");
 							break;
 						}
-					} while (click != 5);
+					} while (click != 6);
 
 				} else {
 					log.info("Employee Authentication failed..Try with valid Credentials...");

@@ -8,7 +8,7 @@ import com.app.service.StatusService;
 
 public class StatusServiceImpl implements StatusService{
 	
-	StatusDAO statusDAO = new StatusDAOImpl();
+	private StatusDAO statusDAO = new StatusDAOImpl();
 
 	@Override
 	public String updateStatus(Status status) throws BusinessException {

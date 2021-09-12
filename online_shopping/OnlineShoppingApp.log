@@ -1,0 +1,352 @@
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - --------------------------------------
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-232 14:45:52 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-232 14:46:02 INFO  com.app.Main  - Customer Authentication
+[main] 2021-08-232 14:46:02 INFO  com.app.Main  - 
+Enter User Eamil
+[main] 2021-08-232 14:46:11 INFO  com.app.Main  - Enter User Password
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - SignIn Successfully done...
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 
+Welcome Arun to Hari's Online Shopping App :)
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - ----------------------------------------------------
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 
+New and Exciting products are here
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 1)View all Products
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 4)View status
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - 5)SignOut
+[main] 2021-08-232 14:46:16 INFO  com.app.Main  - Please enter your option 1-5 only
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Here you can see the Available Products :>
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=1, productName=Laptop, price=75499.0, ratings=4.5]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=2, productName=Mobile, price=2599.0, ratings=4.1]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=3, productName=Trimmer, price=2999.0, ratings=3.9]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=4, productName=SmartTV, price=88999.0, ratings=4.3]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=5, productName=Speaker, price=10299.0, ratings=3.5]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=6, productName=Headphone, price=1500.0, ratings=4.4]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - Product [productId=7, productName=AirCooler, price=95999.0, ratings=4.9]
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - You can Add Products to Cart
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - 1)Add to Cart
+[main] 2021-08-232 14:46:28 INFO  com.app.Main  - 2)Go Back
+[main] 2021-08-232 14:46:42 INFO  com.app.Main  - Enter the Product Id to Add it in cart
+[main] 2021-08-232 14:46:50 INFO  com.app.Main  - Enter Quantity
+[main] 2021-08-232 14:46:58 INFO  com.app.Main  - Product successfully added in cart
+[main] 2021-08-232 14:46:58 INFO  com.app.Main  - 1)Add to Cart
+[main] 2021-08-232 14:46:58 INFO  com.app.Main  - 2)Go Back
+[main] 2021-08-232 14:47:14 INFO  com.app.Main  - Enter the Product Id to Add it in cart
+[main] 2021-08-232 14:47:19 INFO  com.app.Main  - Enter Quantity
+[main] 2021-08-232 14:47:23 INFO  com.app.Main  - Product successfully added in cart
+[main] 2021-08-232 14:47:23 INFO  com.app.Main  - 1)Add to Cart
+[main] 2021-08-232 14:47:23 INFO  com.app.Main  - 2)Go Back
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - Going back
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - 
+New and Exciting products are here
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - 1)View all Products
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - 4)View status
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - 5)SignOut
+[main] 2021-08-232 14:47:29 INFO  com.app.Main  - Please enter your option 1-5 only
+[main] 2021-08-232 14:47:37 INFO  com.app.Main  - You can Place your orders here
+[main] 2021-08-232 14:47:37 INFO  com.app.Main  - 1)View Products in cart
+[main] 2021-08-232 14:47:37 INFO  com.app.Main  - 2)Place order
+[main] 2021-08-232 14:47:37 INFO  com.app.Main  - 3)Go Back..
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - Products which you added in cart
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - Cart [customerId=1, Product [productId=4, productName=SmartTV, price=88999.0, ratings=4.3], quantity=2]
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - Cart [customerId=1, Product [productId=6, productName=Headphone, price=1500.0, ratings=4.4], quantity=1]
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - The total cost of this product SmartTV : 177998.0
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - The total cost of this product Headphone : 1500.0
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - Do you want to place order?
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - Kindly select option 2
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - 1)View Products in cart
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - 2)Place order
+[main] 2021-08-232 14:47:43 INFO  com.app.Main  - 3)Go Back..
+[main] 2021-08-232 14:47:59 INFO  com.app.Main  - Place Your Order here
+[main] 2021-08-232 14:47:59 INFO  com.app.Main  - Type true if you need to place the order
+[main] 2021-08-232 14:48:05 INFO  com.app.Main  - Orders successfully placed..
+[main] 2021-08-232 14:48:05 INFO  com.app.Main  - You can view the order list
+[main] 2021-08-232 14:48:05 INFO  com.app.Main  - 1)View Order List
+[main] 2021-08-232 14:48:05 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-232 14:48:10 INFO  com.app.Main  - Products Order List
+[main] 2021-08-232 14:48:10 INFO  com.app.Main  - Order [orderId=1, customerId=1, productId=4, productName=SmartTV, ratings=4.3, cost=177998.0, orderStatus=true]
+[main] 2021-08-232 14:48:10 INFO  com.app.Main  - Order [orderId=2, customerId=1, productId=6, productName=Headphone, ratings=4.4, cost=1500.0, orderStatus=true]
+[main] 2021-08-232 14:48:10 INFO  com.app.Main  - 1)View Order List
+[main] 2021-08-232 14:48:10 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-232 14:48:45 INFO  com.app.Main  - Going previous menu
+[main] 2021-08-232 14:48:45 INFO  com.app.Main  - 1)View Products in cart
+[main] 2021-08-232 14:48:45 INFO  com.app.Main  - 2)Place order
+[main] 2021-08-232 14:48:45 INFO  com.app.Main  - 3)Go Back..
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - Going back.....
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - 
+New and Exciting products are here
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - 1)View all Products
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - 4)View status
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - 5)SignOut
+[main] 2021-08-232 14:48:50 INFO  com.app.Main  - Please enter your option 1-5 only
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - Thanks for using this APP... See you soon..
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-232 14:48:54 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-232 14:48:58 INFO  com.app.Main  - Employee Authentication
+[main] 2021-08-232 14:48:58 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-08-232 14:49:02 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - Employee LogIn Successfull...
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - 
+Hello HariPrasanth, Select what you want to do?
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - 2)View Product List
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - 3)View Ordered List
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - 4)Shipping status
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - 5)Logout
+[main] 2021-08-232 14:49:06 INFO  com.app.Main  - Please select any one of the option 1-5 only
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - You are viewing ordered list
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - Order [orderId=1, customerId=1, productId=4, productName=SmartTV, ratings=4.3, cost=177998.0, orderStatus=true]
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - Order [orderId=2, customerId=1, productId=6, productName=Headphone, ratings=4.4, cost=1500.0, orderStatus=true]
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - You can view and update the status of Order
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - 1)Update status
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - 2)Update status as Shipping
+[main] 2021-08-232 14:49:15 INFO  com.app.Main  - 3)Go back
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - Updating status...
+[main] 2021-08-232 14:49:33 INFO  com.app.dao.impl.CartAddDAOImpl  - Status updated
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - Update successfull for Order ID 1
+[main] 2021-08-232 14:49:33 INFO  com.app.dao.impl.CartAddDAOImpl  - Status updated
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - Update successfull for Order ID 2
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - You can view and update the status of Order
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - 1)Update status
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - 2)Update status as Shipping
+[main] 2021-08-232 14:49:33 INFO  com.app.Main  - 3)Go back
+[main] 2021-08-232 14:49:46 INFO  com.app.Main  - Updating Shipping status...
+[main] 2021-08-232 14:49:46 INFO  com.app.dao.impl.CartAddDAOImpl  - 2 rows updated
+[main] 2021-08-232 14:49:46 INFO  com.app.dao.impl.CartAddDAOImpl  - Products Shipped
+[main] 2021-08-232 14:49:46 INFO  com.app.Main  - Shipping update successfull
+[main] 2021-08-232 14:49:46 INFO  com.app.Main  - You can view and update the status of Order
+[main] 2021-08-232 14:49:46 INFO  com.app.Main  - 1)Update status
+[main] 2021-08-232 14:49:46 INFO  com.app.Main  - 2)Update status as Shipping
+[main] 2021-08-232 14:49:46 INFO  com.app.Main  - 3)Go back
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - Going back to previous menu
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - 
+Hello HariPrasanth, Select what you want to do?
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - 2)View Product List
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - 3)View Ordered List
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - 4)Shipping status
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - 5)Logout
+[main] 2021-08-232 14:49:53 INFO  com.app.Main  - Please select any one of the option 1-5 only
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - Session Logout
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-232 14:49:57 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-232 14:50:01 INFO  com.app.Main  - Customer Authentication
+[main] 2021-08-232 14:50:01 INFO  com.app.Main  - 
+Enter User Eamil
+[main] 2021-08-232 14:50:10 INFO  com.app.Main  - Enter User Password
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - SignIn Successfully done...
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 
+Welcome Arun to Hari's Online Shopping App :)
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - ----------------------------------------------------
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 
+New and Exciting products are here
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 1)View all Products
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 4)View status
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - 5)SignOut
+[main] 2021-08-232 14:50:14 INFO  com.app.Main  - Please enter your option 1-5 only
+[main] 2021-08-232 14:50:18 INFO  com.app.Main  - Viewing shipping status
+[main] 2021-08-232 14:50:18 INFO  com.app.Main  - If you placed the order then type true
+[main] 2021-08-232 14:50:18 INFO  com.app.Main  - Otherwise type false
+[main] 2021-08-232 14:50:26 INFO  com.app.dao.impl.CartAddDAOImpl  - 2 rows updated
+[main] 2021-08-232 14:50:26 INFO  com.app.dao.impl.CartAddDAOImpl  - Products Shipped
+[main] 2021-08-232 14:50:26 INFO  com.app.Main  - Product Shipped successfully...
+[main] 2021-08-232 14:50:26 INFO  com.app.Main  - Updating status Received
+[main] 2021-08-232 14:50:26 INFO  com.app.Main  - 1)Update Received status
+[main] 2021-08-232 14:50:26 INFO  com.app.Main  - 2)Go back
+[main] 2021-08-232 14:50:43 INFO  com.app.Main  - Updating Received status
+[main] 2021-08-232 14:50:43 INFO  com.app.dao.impl.CartAddDAOImpl  - 2 rows updated
+[main] 2021-08-232 14:50:43 INFO  com.app.dao.impl.CartAddDAOImpl  - Products Received
+[main] 2021-08-232 14:50:43 INFO  com.app.Main  - Updated Received successfully...
+[main] 2021-08-232 14:50:43 INFO  com.app.Main  - Updating status Received
+[main] 2021-08-232 14:50:43 INFO  com.app.Main  - 1)Update Received status
+[main] 2021-08-232 14:50:43 INFO  com.app.Main  - 2)Go back
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - Going back..
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - 
+New and Exciting products are here
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - 1)View all Products
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - 4)View status
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - 5)SignOut
+[main] 2021-08-232 14:50:55 INFO  com.app.Main  - Please enter your option 1-5 only
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - Thanks for using this APP... See you soon..
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-232 14:50:58 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-08-232 14:50:59 INFO  com.app.Main  - Thank You...Have a nice day :-)
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - --------------------------------------
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 12:42:19 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 12:42:27 INFO  com.app.Main  - Employee Authentication
+[main] 2021-09-255 12:42:27 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-09-255 12:42:32 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - Employee Authentication failed..Try with valid Credentials...
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 12:42:49 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 12:43:20 INFO  com.app.Main  - Employee Authentication
+[main] 2021-09-255 12:43:20 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-09-255 12:43:27 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - Employee LogIn Successfull...
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - 
+Hello hariprasanth, Select what you want to do?
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - 2)View Product List
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - 3)View Ordered List
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - 4)Shipping status
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - 5)Logout
+[main] 2021-09-255 12:43:31 INFO  com.app.Main  - Please select any one of the option 1-5 only
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - --------------------------------------
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 13:21:37 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 13:21:43 INFO  com.app.Main  - Employee Authentication
+[main] 2021-09-255 13:21:43 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-09-255 13:21:49 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - Employee LogIn Successfull...
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - 
+Hello hariprasanth, Select what you want to do?
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - 2)View Product List
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - 3)View Ordered List
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - 4)Shipping status
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - 5)Logout
+[main] 2021-09-255 13:21:53 INFO  com.app.Main  - Please select any one of the option 1-5 only
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - --------------------------------------
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 13:23:45 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 13:23:47 INFO  com.app.Main  - Employee Authentication
+[main] 2021-09-255 13:23:47 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-09-255 13:23:52 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - Employee Authentication failed..Try with valid Credentials...
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 13:23:56 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 13:24:01 INFO  com.app.Main  - Employee Authentication
+[main] 2021-09-255 13:24:01 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-09-255 13:24:05 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - Employee LogIn Successfull...
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 
+Hello hariprasanth, Select what you want to do?
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 2)View Product List
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 3)View Customer List
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 4)View Ordered List
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 5)Shipping status
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - 6)Logout
+[main] 2021-09-255 13:24:10 INFO  com.app.Main  - Please select any one of the option 1-6 only
+[main] 2021-09-255 13:24:16 INFO  com.app.Main  - All Customer Details
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - Customer details shown.......
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 
+Hello hariprasanth, Select what you want to do?
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 2)View Product List
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 3)View Customer List
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 4)View Ordered List
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 5)Shipping status
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - 6)Logout
+[main] 2021-09-255 13:24:18 INFO  com.app.Main  - Please select any one of the option 1-6 only
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - Welcome to Hari's Online Shopping APP
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - --------------------------------------
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 13:27:12 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 13:27:15 INFO  com.app.Main  - Employee Authentication
+[main] 2021-09-255 13:27:15 INFO  com.app.Main  - 
+Enter Employee Username
+[main] 2021-09-255 13:27:22 INFO  com.app.Main  - Enter Employee Password
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - Employee LogIn Successfull...
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 
+Hello hariprasanth, Select what you want to do?
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 2)View Product List
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 3)View Customer List
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 4)View Ordered List
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 5)Shipping status
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - 6)Logout
+[main] 2021-09-255 13:27:27 INFO  com.app.Main  - Please select any one of the option 1-6 only
+[main] 2021-09-255 13:27:32 INFO  com.app.Main  - All Customer Details
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - Customer [customerId=1, firstName=Arun, lastName=Raj, email=arunraj123@gmail.com]
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - Customer [customerId=2, firstName=Dinesh, lastName=Kumar, email=dineshkumar123@gmail.com]
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - Customer details shown.......
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 
+Hello hariprasanth, Select what you want to do?
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 1)Add a new Product
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 2)View Product List
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 3)View Customer List
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 4)View Ordered List
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 5)Shipping status
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - 6)Logout
+[main] 2021-09-255 13:27:33 INFO  com.app.Main  - Please select any one of the option 1-6 only
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - Session Logout
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - 
+MAIN MENU
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - 2)Login as Employee
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - 3)Register as Customer
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - 4)EXIT
+[main] 2021-09-255 13:27:50 INFO  com.app.Main  - Please enter your choice 1-4 only
+[main] 2021-09-255 13:27:51 INFO  com.app.Main  - Thank You...Have a nice day :-)
