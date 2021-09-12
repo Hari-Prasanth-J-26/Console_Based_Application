@@ -22,4 +22,4 @@ Finally, the product will be now ready to ship by the employee, who can able to 
 <li>Clone my code - https://github.com/Hari-Prasanth-J-26/Revature_Project-1</li>
 </ul>
 <h2>Usage</h2>
-After cloning you just need to run the java code. Create a Database and Tables to get the send and retrieve the data. In the console, you can do all the operations.
+After cloning you just need to run the java code. Create a Database and Tables, after that you need to use JDBC to connect the Database and Java inorder to send and retrieve the data. In the console, you can perform all the operations which all are implemented in this project.
